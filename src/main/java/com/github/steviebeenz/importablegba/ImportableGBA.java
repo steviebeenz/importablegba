@@ -27,7 +27,7 @@ import org.bukkit.entity.Entity;
 import java.util.concurrent.TimeUnit;
 
 public class ImportableGBA {
-    public Block getBlockAsync(Location loc) {
+    public static Block getBlockAsync(Location loc) {
         if (Bukkit.isPrimaryThread()) {
             return loc.getBlock();
         } else {

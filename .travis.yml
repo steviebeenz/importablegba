@@ -25,4 +25,4 @@ deploy:
   skip_cleanup: true
   script: cloudsmith push maven steviebeenzmvn/steviebeenz target/gba.jar
   on:
-    branch: master
+    branch: main

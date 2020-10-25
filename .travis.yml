@@ -1,10 +1,11 @@
 language: python
- python:
+  python:
    - "3.6"
 addons:
   apt:
     packages:
-      - oracle-java8-installer 
+      - oracle-java8-installer
+
 sudo: false
 
 cache:
